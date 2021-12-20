@@ -401,19 +401,19 @@ section {
   background: #fff;
 }
 .facts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 40px;
-  background: #8998A5;
-  color: #fff;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 40px;
+	background: linear-gradient(-90deg, #F9DE59, blue);
+	color: #fff;
+	border-radius: 50px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
 }
 .facts .count-box span {
   font-size: 36px;
@@ -771,7 +771,7 @@ section {
 }
 .services .iconbox-blue:hover .icon i {
   color: #fff;
-  background: #000;
+  background: linear-gradient(-90deg, #F9DE59, blue)00;
   border: 3x solid #ddd;
 }
 .icon i {
