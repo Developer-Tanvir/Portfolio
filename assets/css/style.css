@@ -553,8 +553,8 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
-  box-shadow: 1px 0px 18px #f9de59;
-  border: 2px solid #F9DE59;
+  box-shadow: 1px 0px 18px #b9b9b9;
+  border: 2px solid #ddd;
   border-radius: 8px;
 }
 .portfolio .portfolio-wrap::before {
@@ -653,6 +653,24 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+button {
+  padding: 15px 25px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+button:hover{
+  background: #000;
+  color: #fff;
+}
+button:hover a{
+  
+  color: #fff;
+}
+.btn-div a{
+font-size: 1.5rem;
+font-weight: 600;
+color: #45505b;
 }
 
 /*--------------------------------------------------------------
@@ -1051,7 +1069,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
