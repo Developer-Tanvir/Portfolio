@@ -5,12 +5,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-new kursor({
-  type: 1
-})
-
-
-
 
 (function() {
   "use strict";
@@ -270,3 +264,7 @@ new kursor({
   });
 
 })()
+
+new kursor({
+  type: 1
+})
