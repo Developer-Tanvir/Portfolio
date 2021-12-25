@@ -4,6 +4,14 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+new kursor({
+  type: 1
+})
+
+
+
+
 (function() {
   "use strict";
 
