@@ -727,6 +727,27 @@ color: #45505b;
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+.link{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.code, .live-link{
+  
+  
+}
+.code a{
+  background-color: #000;
+  color: #fff;
+  padding: 7px 25px;
+  border-radius: 7px;
+}
+.live-link a{
+  background-color: #000;
+  color: #fff;
+  padding: 7px 25px;
+  border-radius: 7px;
+}
 
 /*--------------------------------------------------------------
 # Services
